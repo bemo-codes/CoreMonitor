@@ -1,2 +1,18 @@
-*.log
+# Python
 __pycache__/
+*.pyc
+*.pyo
+
+# Generated log files
+*.log
+ProcessLog_*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
